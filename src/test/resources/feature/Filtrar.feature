@@ -8,7 +8,7 @@ Característica: Yo como usuario logueado exitosamente en Swaglabs,
   Antecedentes:
     Dado que Karelys esta en la pagina SAUCEDEMO
 
-  @test2
+  @test
   Escenario: Filtrado de productos
     Cuando ingreso mis credenciales validas usuario standard_user y contrasena secret_sauce
     Y realice el ordenamiento de productos por la opcion 'Price high to low'
