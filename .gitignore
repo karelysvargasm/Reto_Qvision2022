@@ -1,5 +1,24 @@
-# Project exclude paths
-/.gradle/
-/build/
-/build/classes/java/main/
-/build/classes/java/test/
+# Intellij
+.idea/
+.gradle/
+*.iml
+*.iws
+*.editorconfig
+
+# Gradle
+log/
+target/
+hooks/pre-push
+
+# Java
+build/
+out/
+*.class
+*.war
+*.ear
+
+# Log file
+*.log
+.scannerwork/report-task.txt
+.scannerwork/.sonar_lock
+.scannerwork/
