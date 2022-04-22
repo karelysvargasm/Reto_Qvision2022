@@ -8,5 +8,6 @@ import lombok.Getter;
 public enum Urls {
     SAUCEDEMO("https://www.saucedemo.com/#home");
 
+
     private final String URLS;
 }

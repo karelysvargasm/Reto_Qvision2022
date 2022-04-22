@@ -19,7 +19,7 @@ public class FiltrarProductosStepdefinition {
 
     @Entonces("los productos son ordenados por precios de mayor a menor")
     public void ValidarFiltrado() {
-        OnStage.theActorInTheSpotlight().should(seeThat(ValidarFiltro.enSaucedemo()));
+        theActorInTheSpotlight().should(seeThat(ValidarFiltro.enSaucedemo()));
 
     }
 

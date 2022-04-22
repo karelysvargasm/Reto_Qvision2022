@@ -9,6 +9,7 @@ import tasks.Ingresar;
 
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
+import static net.serenitybdd.screenplay.actors.OnStage.*;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 public class LoginStepdefinition {
@@ -20,7 +21,7 @@ public class LoginStepdefinition {
 
     @Entonces("me permite ingresar al sistema de manera exitosa")
     public void ingresarPagina() {
-         OnStage.theActorInTheSpotlight().should(seeThat(ComprobarInicioSesion.enSaucedemo()));
+         theActorInTheSpotlight().should(seeThat(ComprobarInicioSesion.enSaucedemo()));
 
     }
 
